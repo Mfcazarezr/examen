@@ -1,14 +1,106 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      mis discos
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding style="background: #3da1c0">
+  <ion-card style="background: #556676">
+    <ion-grid>
+      <ion-row>
+        
+        <ion-col >
+          <img src = "../assets/imgs/when.jpg" (click)="foto1()">
+        </ion-col>
+      
+        <ion-col >
+          <ion-card-title (click)="bruno()">
+            bruno mars
+          </ion-card-title>
+          <h2 (click)="disco1()">
+            When i was your man
+          </h2>
+          <h3 (click)="resena1()">
+            <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+          </h3>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+ 
+  <ion-card style="background: #139da7">
+    <ion-grid>
+      <ion-row>
+        
+        <ion-col >
+          <img src = "../assets/imgs/shak.jpg" (click)="foto2()">
+        </ion-col>
+      
+        <ion-col >
+          <ion-card-title (click)="shakira()">
+            Shakira
+          </ion-card-title>
+          <h2 (click)="disco2()">
+            dia de enero
+          </h2>
+          <h3 (click)="resena2()">
+            <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+          </h3>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+
+  <ion-card style="background: #31ff8e">
+    <ion-grid>
+      <ion-row>
+        
+        <ion-col >
+          <img src = "../assets/imgs/v.jpg" (click)= "foto3()">
+        </ion-col>
+      
+        <ion-col >
+          <ion-card-title (click)="MaronV()">
+            maroon 5
+          </ion-card-title>
+          <h2 (click)="disco3()">
+            v
+          </h2>
+          <h3 (click)="resena3()">
+            <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+          </h3>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+  
+
+  <ion-card style="background: pink">
+    <ion-grid>
+      <ion-row>
+        
+        <ion-col >
+          <img src = "../assets/imgs/Believe-JB-Album.jpg" (click)="foto4()">
+        </ion-col>
+      
+        <ion-col >
+          <ion-card-title (click)="justin()">
+            Justin bieber
+          </ion-card-title>
+          <h2 (click)="disco4()">
+            believe
+          </h2>
+          <h3 (click)="resena4()">
+            <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+          </h3>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+  
+
+
+  
 </ion-content>
